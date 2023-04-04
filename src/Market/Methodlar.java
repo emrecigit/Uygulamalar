@@ -7,7 +7,7 @@ import java.util.List;
 public class Methodlar {
     static int urunlerId = 0;
     static Map<Integer, String> urunlerMap = new HashMap<Integer, String>();
-    static Scanner scanner =new Scanner(System.in);
+    static Scanner scanner =new Scanner(System.in); // Scanner
     public static void urunListesi() {
         urunlerMap.put(++urunlerId, "Domates,2.10");
         urunlerMap.put(++urunlerId, "Patates,3.20");
